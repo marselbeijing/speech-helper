@@ -1,31 +1,11 @@
-<script>
-    function startExercises() {
-        document.body.innerHTML = `
-            <h1>Упражнение: Глубокое дыхание</h1>
-            <p>Сделайте глубокий вдох через нос, задержите дыхание на 3 секунды, затем медленно выдохните через рот.</p>
-            <button onclick="startBreathingExercise()">Начать</button>
-        `;
-    }
-
-    function startBreathingExercise() {
-        document.body.innerHTML = `
-            <h1>Вдох...</h1>
-            <p>Глубоко вдохните через нос</p>
-        `;
-
-        setTimeout(() => {
-            document.body.innerHTML = `
-                <h1>Задержите дыхание</h1>
-                <p>Задержите дыхание на 3 секунды...</p>
-            `;
-        }, 3000);
-
-        setTimeout(() => {
-            document.body.innerHTML = `
-                <h1>Выдох...</h1>
-                <p>Медленно выдыхайте через рот</p>
-                <button onclick="startExercises()">Назад</button>
-            `;
-        }, 6000);
-    }
-</script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Helper</title>
+</head>
+<body>
+    <h1>Привет! Это Mini App для Telegram.</h1>
+</body>
+</html>
